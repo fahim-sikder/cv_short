@@ -1,0 +1,397 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Md. Fahim}{Sikder}{{144, East Kazipara, Kafrul, Dhaka-1216, Bangladesh}\\
+	%{Permanent Add: Vill: Shitarampur, Post: Shitarampur (8131), Upazilla: Kashiani, Dist: Gopalganj} \\
+\href{mailto:fahimsikder01@gmail.com}{fahimsikder01@gmail.com} | +8801521456006 | +8801826633997\\
+ \urlstyle{same}\url{http://fahim-sikder.github.io}
+
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Education} 
+%
+%\subsection{Cornell University}
+%\descript{MEng in Computer Science}
+%\location{Expected Dec 2014 | Ithaca, NY \\ Cum. GPA: N/A}
+%\sectionsep
+%
+%
+%\descript{BS in Computer Science}
+%\location{Expected May 2014 | Ithaca, NY}
+%Conc. in Software Engineering \\
+%College of Engineering \\
+%Dean's List (All Semesters) \\
+%\location{ Cum. GPA: 3.92 / 4.0 \\
+%Major GPA: 3.94 / 4.0}
+%\sectionsep
+%
+%\subsection{La Martiniere for Boys}
+%\location{Grad. May 2011|  Kolkata, India}
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Links} 
+%Github:// \href{https://github.com/deedydas}{\custombold{deedydas}} \\
+%LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\custombold{debarghyadas}} \\
+%YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\custombold{DeedyDash007}} \\
+%Twitter://  \href{https://twitter.com/debarghya_das}{\custombold{@debarghya\_das}} \\
+%Quora://  \href{https://www.quora.com/Debarghya-Das}{\custombold{Debarghya-Das}}
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Experience}
+%
+%\runsubsection{Lecturer}
+%\descript{| Institute of Science Trade \& Technology (ISTT) }
+%\location{July 2017 - Present | Mirpur, Dhaka}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+%\begin{tightemize}\item Coordinator, HEAP Programming Club
+%	\item Mentor, IEEE ISTT Student Branch
+%\end{tightemize}
+%\sectionsep	
+
+\section{Research Interest}
+Deep Learning \\
+Image Processing \\
+Natural Language Processing \\
+Data Science \\
+Robotics
+\sectionsep
+
+
+\section{Coursework}
+\subsection{Graduate}
+Neural Network \\
+Medical Imaging \\
+Mobile \& Wireless Communication System \\
+Data Mining \\
+Cloud Computing \\
+\sectionsep
+
+\subsection{Undergraduate}
+Machine Learning \\
+Operating Systems \\
+Artificial Intelligence \\
+Algorithm Design \\
+Digital Image Processing \\
+\sectionsep
+
+%\section{Major Deep Learning Completed Projects}
+%\begin{itemize}
+%	\item Face Recognition: A Fused Deep Learning Approach
+%	\item Study on Bangla Machine Translation Technique using Long Short Term Memory (LSTM)
+%	\item Bangla Handwritten Digit Recognition \& Generation
+%\end{itemize}
+%\sectionsep
+
+%\section{Publication}
+%\begin{itemize}
+%	\item \textit{Predicting Students Yearly Performance using Neural Network: A Case Study of BSMRSTU}, Md. Fahim Sikder, Md. Jamal Uddin, Sajal Halder, 5th International Conference on Informatics, Electronics and Vision (ICIEV), 2016, Dhaka
+%	\item \textbf{Smart Disaster Notification System}, Md. Fahim Sikder, Sajal Halder, Tanvir Hasan, Md. Jamal Uddin, Mrinal Kanti Baowaly, 4th International Conference on Advances on Electrical Engineering (ICAEE), 2017, Dhaka
+%\end{itemize}
+%\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Programming Skills}
+\subsection{Language}
+%\location{Over 5000 lines:}
+Python \textbullet{}   Java \textbullet{} C++ \textbullet{} JavaScript \\
+PHP \textbullet{} MySQL \textbullet{} \LaTeX\ \\ 
+\subsection{Development Tool}
+Android Studio \textbullet{} NetBeans \textbullet{} Weka\\ Matlab \textbullet{} Unity 3D \\
+\subsection{Deep Learning Library}
+Tensorflow \textbullet{} Keras \textbullet{} tflearn
+\sectionsep
+
+\section{Scholarship}
+Begam Saleha Scholarship, BSMRSTU, 2014
+\sectionsep
+
+\section{Membership}
+Professional Member, ACM \\
+\sectionsep
+
+\section{Training}
+National Mobile Application Development\\Awarness \& Capacity Building Program, MoICT, 2014
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+	
+	
+\section{Experience}
+
+\runsubsection{Lecturer}
+\descript{| Institute of Science Trade \& Technology (ISTT) }
+\location{July 2017 - Present | Mirpur, Dhaka}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+	%\item Coordinator, HEAP Programming Club
+	%\item Mentor, IEEE ISTT Student Branch
+	\item Faculty Member, ISTT ACM Student Chapter
+\end{tightemize}
+\sectionsep	
+
+
+%\section{Publication}
+%\subsection{International Conference}
+%\begin{itemize}
+%	\item \textit{Predicting Students Yearly Performance using Neural Network: A Case Study of BSMRSTU}, ICIEV, 2016, Dhaka
+%	\item \textbf{Smart Disaster Notification System}, ICAEE, 2017, Dhaka
+%\end{itemize}
+%\sectionsep
+%
+%
+%
+%
+%\section{Major Deep Learning Completed Projects}
+%\begin{itemize}
+%	\item Face Recognition: A Fused Deep Learning Approach [Thesis B.Sc]
+%	\item Study on Bangla Machine Translation Technique using Long Short Term Memory (LSTM) [Thesis M.Sc]
+%	\item Bangla Handwritten Digit Recognition \& Generation
+%\end{itemize}
+%\sectionsep
+
+
+
+\section{Selected Publication}
+\begin{itemize}
+	\item \textit{Predicting Students Yearly Performance using Neural Network: A Case Study of BSMRSTU}, 5th International Conference on Informatics, Electronics and Vision (ICIEV), 2016, Dhaka, Publisher: IEEE
+	\item \textbf{Bangla Handwritten Digit Recognition and Generation}, International Joint Conference on Computational Intelligence (IJCCI), 2018, Dhaka [Accepted], Publisher: Springer
+	%\item \textbf{Smart Disaster Notification System}, 4th International Conference on Advances on Electrical Engineering (ICAEE), 2017, Dhaka
+\end{itemize}
+\sectionsep
+
+%\section{Publication}
+%\begin{itemize}
+%	\item \textit{Predicting Students Yearly Performance using Neural Network: A Case Study of BSMRSTU}, Md. Fahim Sikder, Md. Jamal Uddin, Sajal Halder, 5th International Conference on Informatics, Electronics and Vision (ICIEV), 2016, Dhaka
+%	\item \textbf{Smart Disaster Notification System}, Md. Fahim Sikder, Sajal Halder, Tanvir Hasan, Md. Jamal Uddin, Mrinal Kanti Baowaly, 4th International Conference on Advances on Electrical Engineering (ICAEE), 2017, Dhaka
+%\end{itemize}
+%\sectionsep
+%
+
+%\section{Publication}
+%\location{Predicting Students Yearly Performance using Neural Network: A Case Study of BSMRSTU, Md. Fahim Sikder, Md. Jamal Uddin, Sajal Halder, 5th International Conference on Informatics, Electronics and Vision (ICIEV), 2016, Dhaka}
+%\sectionsep
+%
+%\location{\textbf{Smart Disaster Notification System}, Md. Fahim Sikder, Sajal Halder, Tanvir Hasan, Md. Jamal Uddin, Mrinal Kanti Baowaly, 4th International Conference on Advances on Electrical Engineering (ICAEE), 2017, Dhaka}
+%\sectionsep
+
+
+%\section{Research}
+%\runsubsection{Bangla Machine Translation using LSTM}
+%\descript{| M.Sc Thesis}
+%\location{Jahangirnagar University | Savar, Bangladesh}
+%%Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  Publication submitted.
+%\sectionsep
+%
+%\runsubsection{Face Recognition: A Fused Deep Learning Approach}
+%\descript{| B.Sc Thesis}
+%\location{BSMRSTU | Gopalganj, Bangladesh}
+%%Lead the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. Publication submitted.
+%\sectionsep
+
+%\section{Education}
+%\subsection{Jahangirnagar University}
+%\descript{M.Sc in Computer Science}
+%\location{Expected August 2018 | Savar, Bangladesh \\ CGPA: Appeared}
+%\sectionsep	
+%	
+%
+%\subsection{Bangabandhu Sheikh Mujibur Rahman Science \& Technology University}
+%\descript{B.Sc (Engg.) in Computer Science \& Engineering}
+%\location{Dec 2016 | Gopalganj, Bangladesh \\ CGPA: 3.80 With Distinction}
+%
+%\sectionsep
+%
+
+\section{Education}
+\subsection{Jahangirnagar University}
+\descript{M.Sc in Computer Science}
+\location{September 2018 | Savar, Bangladesh \\ CGPA: 3.73 \\ Thesis: Study on Bangla Machine Translation Technique using Long Short Term Memory (LSTM)}
+\sectionsep	
+
+
+\subsection{Bangabandhu Sheikh Mujibur Rahman Science \& Technology University}
+\descript{B.Sc (Engg.) in Computer Science \& Engineering}
+\location{Dec 2016 | Gopalganj, Bangladesh \\ CGPA: 3.80 With Distinction\\ Thesis: Face Recognition: A Fused Deep Learning Approach}
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%\runsubsection{Google}
+%\descript{| Software Engineering Intern }
+%\location{May 2013 – Aug 2013 | Mountain View, CA}
+%\begin{tightemize}
+%\item Worked on the YouTube Captions team in primarily vanilla Javascript and Python to plan, design and develop the full stack implementation of a new framework to add and edit Automatic Speech Recognition captions.\item Created a backbone.js-like framework for the Captions editor.\item All code was reviewed, perfected, and pushed to production.\end{tightemize}
+%\sectionsep
+%
+%\runsubsection{Phabricator}
+%\descript{| Open Source Contributor \& Team Leader}
+%\location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
+%\begin{tightemize}
+%\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.\item I created the Meme generator, the entire Lipsum application, ported Tokens to different apps, fixed many bugs and more in PHP and Shell.\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.\end{tightemize}
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards} 
+%\subsection{Awards}
+\begin{tabular}{rll}
+	2018 & Nvidia GPU Grant & Nvidia \\
+
+2016     & Champion & NASA Space Apps Challenge 2016 \\
+ 2016     & Best Young Innovator & BSMRSTU Youth Summit 2016 \\
+ 2016     & Champion & Dhaka Divisional Science \& Technology Fair\\
+ 2016	     & Best Young Inventor  & Digital Innovation Fair 2016\\
+ 2015	     & Champion  & CSE IT Carnival, BSMRSTU, 2015\\
+ & Project Showcasing(Mobile Apps) & \\
+ 2015	     & Top 200  & Young Bangla Youth Award 2015\\
+ 2014	     & Champion  & International Contest on Programming and\\
+ & & System Development 2014\\
+
+\end{tabular}
+\sectionsep
+
+
+
+%\subsection{Membership}
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SOCIETIES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Reference} 
+
+\begin{tabular}{ll}
+Dr. Md. Hanif Seddiqui    & Md. Jamal Uddin\\
+Professor   & Assistant Professor\\
+University of Chittagong  & Bangabandhu Sheikh Mujibur Rahman \\
+& Science \& Technology University\\
+hanif@cu.ac.bd   & jamal.bsmrstu@gmail.com\\
++8801933236173 &+8801734531900\\
+\end{tabular}
+\sectionsep
+
+
+%\section{Reference} 
+%
+%\begin{tabular}{ll}
+%	Dr. Md. Hanif Seddiqui    & Sajal Halder\\
+%	Professor   & Assistant Professor\\
+%	University of Chittagong  & Jagannath University\\
+%	hanif@cu.ac.bd   & sajal@cse.jnu.ac.bd\\
+%	+8801933236173 &+8801732436031\\
+%\end{tabular}
+%\sectionsep
+
+\end{minipage} 
+\end{document}
