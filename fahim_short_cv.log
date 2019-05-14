@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6300 64-bit) (preloaded format=xelatex 2018.8.2)  24 APR 2019 00:45
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6300 64-bit) (preloaded format=xelatex 2019.1.22)  14 MAY 2019 10:59
 entering extended mode
 **./fahim_short_cv.tex
 (fahim_short_cv.tex
@@ -996,31 +996,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--196
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 203--205
+Underfull \hbox (badness 1648) in paragraph at lines 203--206
 \TU/Lato-Lig(0)/m/sc/10 perparameter tuning, Regularization and
  []
 
 
 LaTeX Font Warning: Font shape `TU/Lato-Lig(0)/m/it' undefined
-(Font)              using `TU/Lato-Lig(0)/m/n' instead on input line 255.
-
-
-LaTeX Font Warning: Font shape `TU/Lato-Lig(0)/bx/n' undefined
 (Font)              using `TU/Lato-Lig(0)/m/n' instead on input line 256.
 
 
-Overfull \hbox (26.49036pt too wide) in paragraph at lines 349--364
+LaTeX Font Warning: Font shape `TU/Lato-Lig(0)/bx/n' undefined
+(Font)              using `TU/Lato-Lig(0)/m/n' instead on input line 257.
+
+
+Overfull \hbox (26.49036pt too wide) in paragraph at lines 350--365
 [][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 399.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 400.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 399.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 400.
  (fahim_short_cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 399.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 399.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 400.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 400.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1029,12 +1029,12 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 399.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 400.
  ) 
 Here is how much of TeX's memory you used:
  22012 strings out of 427832
- 394314 string characters out of 3152416
- 478482 words of memory out of 3000000
+ 394314 string characters out of 3152415
+ 477482 words of memory out of 3000000
  25826 multiletter control sequences out of 15000+200000
  6092 words of font info for 54 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
