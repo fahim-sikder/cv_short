@@ -1,7 +1,7 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6300 64-bit) (preloaded format=xelatex 2019.1.22)  14 MAY 2019 10:59
+This is XeTeX, Version 3.14159265-2.6-0.99998 (MiKTeX 2.9.6300 64-bit) (preloaded format=xelatex 2018.8.2)  24 MAY 2019 20:02
 entering extended mode
-**./fahim_short_cv.tex
-(fahim_short_cv.tex
+**./cv_fahim_sikder.tex
+(cv_fahim_sikder.tex
 LaTeX2e <2017-04-15>
 Babel <3.9t> and hyphenation patterns for 76 language(s) loaded.
 (deedy-resume-openfont.cls
@@ -739,8 +739,8 @@ anguage=DFLT;+smcp;mapping=tex-text;"
 LaTeX Info: Redefining \sffamily on input line 30.
 
 TextBlockOrigin set to 0mm x 5mm
-) (fahim_short_cv.aux)
-\openout1 = `fahim_short_cv.aux'.
+) (cv_fahim_sikder.aux)
+\openout1 = `cv_fahim_sikder.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
 LaTeX Font Info:    ... okay on input line 50.
@@ -766,7 +766,6 @@ LaTeX Font Info:    Try loading font information for T3+cmr on input line 50.
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 50.
-
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
@@ -814,9 +813,9 @@ LaTeX Info: Redefining \ref on input line 50.
 LaTeX Info: Redefining \pageref on input line 50.
 LaTeX Info: Redefining \nameref on input line 50.
 
-(fahim_short_cv.out) (fahim_short_cv.out)
+(cv_fahim_sikder.out) (cv_fahim_sikder.out)
 \@outlinefile=\write3
-\openout3 = `fahim_short_cv.out'.
+\openout3 = `cv_fahim_sikder.out'.
 
 
 ABD: EveryShipout initializing macros
@@ -996,31 +995,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--196
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 203--206
+Underfull \hbox (badness 1648) in paragraph at lines 203--207
 \TU/Lato-Lig(0)/m/sc/10 perparameter tuning, Regularization and
  []
 
 
 LaTeX Font Warning: Font shape `TU/Lato-Lig(0)/m/it' undefined
-(Font)              using `TU/Lato-Lig(0)/m/n' instead on input line 256.
-
-
-LaTeX Font Warning: Font shape `TU/Lato-Lig(0)/bx/n' undefined
 (Font)              using `TU/Lato-Lig(0)/m/n' instead on input line 257.
 
 
-Overfull \hbox (26.49036pt too wide) in paragraph at lines 350--365
+LaTeX Font Warning: Font shape `TU/Lato-Lig(0)/bx/n' undefined
+(Font)              using `TU/Lato-Lig(0)/m/n' instead on input line 258.
+
+
+Overfull \hbox (26.49036pt too wide) in paragraph at lines 351--366
 [][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 400.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 401.
 [1
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 400.
- (fahim_short_cv.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 400.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 400.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 401.
+ (cv_fahim_sikder.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 401.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 401.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1029,15 +1028,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 400.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 401.
  ) 
 Here is how much of TeX's memory you used:
  22012 strings out of 427832
- 394314 string characters out of 3152415
- 477482 words of memory out of 3000000
+ 394328 string characters out of 3152416
+ 477489 words of memory out of 3000000
  25826 multiletter control sequences out of 15000+200000
  6092 words of font info for 54 fonts, out of 3000000 for 9000
  1328 hyphenation exceptions out of 8191
- 52i,8n,119p,10357b,537s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 52i,8n,119p,10358b,537s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on fahim_short_cv.pdf (1 page).
+Output written on cv_fahim_sikder.pdf (1 page).
